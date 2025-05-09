@@ -3,6 +3,7 @@
   --text-dark: #3f3b57;
   --text-light: #908ca3;
   --white: #ffffff;
+  --max-width: 1200px;
 }
 * {
   margin: 0;
@@ -15,4 +16,9 @@
   color: #305509;
   border: 20px;
   background-color: aqua;
+}
+.section__container {
+  max-width: var(--max-width);
+  padding: 5rem 1rem;
+  margin: auto;
 }
