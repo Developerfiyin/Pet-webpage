@@ -1,9 +1,13 @@
 :root {
-  --text-dark: #300009;
+  --primary-color: #dcd7f8;
+  --text-dark: #3f3b57;
+  --text-light: #908ca3;
+  --white: #ffffff;
 }
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .nav__logo {
