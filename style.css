@@ -1,7 +1,7 @@
 :root {
   --primary-color: #dcd7f8;
-  --text-dark: #3f3b57;
-  --text-light: #908ca3;
+  --text-dark: #8d7af8;
+  --text-light: #797688;
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -69,4 +69,16 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: var(--white);
+}
+
+.nav__logo a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.nav__menu__btn {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  cursor: alias;
 }
