@@ -135,6 +135,18 @@ header {
   gap: 2rem;
 }
 
+.header__content h4 {
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  padding: 5px 15px;
+  font-size: 1rem;
+  color: var(--text-dark);
+  font-weight: 600;
+  background-color: 0, 0, 0, 0.1;
+  border-radius: 5rem;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
