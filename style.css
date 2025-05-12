@@ -112,6 +112,13 @@ nav {
   color: var(--primary-color);
 }
 
+header {
+  padding-top: 5rem;
+  position: relative;
+  isolation: isolate;
+  background-color: var(--primary-color);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
