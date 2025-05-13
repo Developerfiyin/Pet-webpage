@@ -217,6 +217,15 @@ header {
   margin-inline: auto;
 }
 
+img.header__image-bg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  max-width: 300px !important;
+  z-index: -1;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
