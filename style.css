@@ -168,6 +168,12 @@ header {
   text-align: center;
 }
 
+.header__content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
