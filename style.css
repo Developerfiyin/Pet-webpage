@@ -269,4 +269,31 @@ img.header__image-bg {
     background-color: transparent;
     transform: none;
   }
+
+  header {
+    padding-top: 0;
+  }
+
+  .header__container {
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header__content {
+    grid-area: 1/2/2/3;
+  }
+
+  .header__content :is(h4, .header__btn button) {
+    margin-inline-start: unset;
+  }
+
+  .header__content :is(h1, h2) {
+    text-align: left;
+  }
+  .header__content p {
+    max-width: 400px;
+    text-align: left;
+  }
+  .header__image img {
+    max-width: 500px;
+  }
 }
