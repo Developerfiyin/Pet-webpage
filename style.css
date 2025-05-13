@@ -226,6 +226,16 @@ img.header__image-bg {
   z-index: -1;
 }
 
+.intro__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.intro__card {
+  text-align: center;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
