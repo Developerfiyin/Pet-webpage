@@ -147,6 +147,15 @@ header {
   border-radius: 5rem;
 }
 
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  color: var(--text-dark);
+  text-align: center;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
