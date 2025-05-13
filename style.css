@@ -236,6 +236,16 @@ img.header__image-bg {
   text-align: center;
 }
 
+.intro__card div {
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
