@@ -246,6 +246,18 @@ img.header__image-bg {
   background-size: contain;
 }
 
+.intro__card:nth-child(1) div {
+  background-image: url("equipments/intro-1-bg.png");
+}
+
+.intro__card:nth-child(2) div {
+  background-image: url("equipments/intro-1-bg.png");
+}
+
+.intro__card:nth-child(3) div {
+  background-image: url("equipments/intro-1-bg.png");
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
