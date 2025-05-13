@@ -226,6 +226,17 @@ img.header__image-bg {
   z-index: -1;
 }
 
+@media (width > 540px) {
+  .header__content h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+
+  .header__content h1 span {
+    font-size: 6rem;
+  }
+}
+
 @media (width > 768px) {
   nav {
     position: static;
