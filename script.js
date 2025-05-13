@@ -23,3 +23,8 @@ const scrollRevealOption = {
 ScrollReveal().reveal(".header__content h4", {
   ...scrollRevealOption,
 });
+
+ScrollReveal().reveal(".header__content h1", {
+  ...scrollRevealOption,
+  delay: 500,
+});
