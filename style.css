@@ -251,11 +251,11 @@ img.header__image-bg {
 }
 
 .intro__card:nth-child(2) div {
-  background-image: url("equipments/intro-1-bg.png");
+  background-image: url("equipments/intro-2-bg.png");
 }
 
 .intro__card:nth-child(3) div {
-  background-image: url("equipments/intro-1-bg.png");
+  background-image: url("equipments/intro-3-bg.png");
 }
 
 @media (width > 540px) {
