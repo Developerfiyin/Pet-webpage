@@ -34,15 +34,11 @@ ScrollReveal().reveal(".header__content h2", {
   delay: 1000,
 });
 
-ScrollReveal().reveal(".header__content h1", {
+ScrollReveal().reveal(".header__content p", {
   ...scrollRevealOption,
-  delay: 500,
+  delay: 1500,
 });
-ScrollReveal().reveal(".header__content h1", {
+ScrollReveal().reveal(".header__btn", {
   ...scrollRevealOption,
-  delay: 500,
-});
-ScrollReveal().reveal(".header__content h1", {
-  ...scrollRevealOption,
-  delay: 500,
+  delay: 2000,
 });
