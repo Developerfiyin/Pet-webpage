@@ -174,9 +174,10 @@ header {
   text-align: center;
 }
 
-.header__btn__bottom {
+.header__btn button {
   padding-bottom: 0.5rem;
   padding-inline: 1.5rem 0.5rem;
+  margin-inline: auto;
   outline: none;
   border: none;
   display: flex;
@@ -190,6 +191,21 @@ header {
   cursor: pointer;
 }
 
+.header__btn button span {
+  padding: 5px 7px;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 100%;
+}
+
+.header__btn button:hover {
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header__btn button:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
 @media (width > 768px) {
   nav {
     position: static;
