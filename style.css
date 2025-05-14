@@ -270,6 +270,19 @@ img.header__image-bg {
   color: var(--text-dark);
 }
 
+.intro__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.intro__card a {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border: 2px solid;
+  border-radius: 5rem;
+  transition: 0.3s;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
