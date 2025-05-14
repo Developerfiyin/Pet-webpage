@@ -292,6 +292,16 @@ img.header__image-bg {
   border-color: #ffc737;
 }
 
+.intro__card:nth-child(2) a {
+  color: #257ae7;
+  border-color: #257ae7;
+}
+
+.intro__card:nth-child(2) a:hover {
+  border-color: #257ae7;
+  color: var(--white);
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
