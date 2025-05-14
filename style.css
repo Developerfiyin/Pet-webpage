@@ -283,6 +283,15 @@ img.header__image-bg {
   transition: 0.3s;
 }
 
+.intro__card:nth-child(1) a {
+  color: #ffc737;
+  border-color: #ffc737;
+}
+
+.intro__card:nth-child(1) a:hover {
+  border-color: #ffc737;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
