@@ -470,4 +470,8 @@ img.header__image-bg {
     max-width: unset;
     margin-inline: auto;
   }
+
+  .about__content {
+    text-align: left;
+  }
 }
