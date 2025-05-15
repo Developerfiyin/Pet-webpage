@@ -347,6 +347,21 @@ img.header__image-bg {
   border-radius: 100%;
 }
 
+.about__content span img {
+  max-width: 40px;
+}
+
+.about__row:nth-child(3) .about__content span {
+  background-color: #fdf2d9;
+}
+
+.about__row:nth-child(4) .about__content span {
+  background-color: #e8f7fe;
+}
+
+.about__row:nth-child(5) .about__content span {
+  background-color: #fbebf1;
+}
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
