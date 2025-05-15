@@ -456,4 +456,18 @@ img.header__image-bg {
   .intro__grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .about__row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about__row:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+
+  .about__image {
+    max-width: unset;
+    margin-inline: auto;
+  }
 }
