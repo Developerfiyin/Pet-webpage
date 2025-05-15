@@ -331,6 +331,11 @@ img.header__image-bg {
   margin-inline: auto;
 }
 
+.about__content {
+  flex: 1;
+  text-align: center;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
