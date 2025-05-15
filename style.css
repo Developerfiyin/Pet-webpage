@@ -321,6 +321,16 @@ img.header__image-bg {
   overflow: hidden;
 }
 
+.about__row:nth-child(3) {
+  margin-top: 4rem;
+}
+
+.about__image {
+  flex: 1;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
