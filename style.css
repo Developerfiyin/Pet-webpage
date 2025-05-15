@@ -336,6 +336,17 @@ img.header__image-bg {
   text-align: center;
 }
 
+.about__content span {
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  width: 80px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
