@@ -401,6 +401,13 @@ img.header__image-bg {
   display: flex;
 }
 
+.product__card h4 {
+  margin-block: 1rem 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
