@@ -408,6 +408,11 @@ img.header__image-bg {
   color: var(--text-dark);
 }
 
+.product__card p {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
