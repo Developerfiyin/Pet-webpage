@@ -80,3 +80,9 @@ ScrollReveal().reveal(".product__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+ScrollReveal().reveal(".service__card", {
+  ...scrollRevealOption,
+  interval: 500,
+  duration: 1000,
+});
