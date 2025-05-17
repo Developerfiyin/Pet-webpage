@@ -427,6 +427,19 @@ img.header__image-bg {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.service__card div {
+  margin-bottom: 2rem;
+  margin-inline: auto;
+  width: 120px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dff3fd;
+  border-radius: 100%;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
