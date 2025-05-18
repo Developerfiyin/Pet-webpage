@@ -449,6 +449,14 @@ img.header__image-bg {
   color: var(--text-light);
 }
 
+.client {
+  background-color: var(--primary-color);
+}
+
+.swiper {
+  margin-top: 4rem;
+  width: 100%;
+}
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
