@@ -537,6 +537,16 @@ img.header__image-bg {
   color: var(--text-dark);
 }
 
+.footer__links {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer__links a {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
