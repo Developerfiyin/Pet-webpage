@@ -512,6 +512,13 @@ img.header__image-bg {
   text-align: left;
   border-bottom: 1px solid var(--text-light);
 }
+
+.instagram__grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
@@ -528,6 +535,9 @@ img.header__image-bg {
 
   .product__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .instagram__grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
