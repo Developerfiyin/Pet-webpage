@@ -561,7 +561,17 @@ img.header__image-bg {
   display: flex;
   align-items: center;
   border: 2px solid var(--primary-color);
-  border: 5rem;
+  border-radius: 5rem;
+}
+
+.footer__col form input {
+  padding-inline: 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: var(--text-dark);
+  background-color: transparent;
 }
 
 @media (width > 540px) {
