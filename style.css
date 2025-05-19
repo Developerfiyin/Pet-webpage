@@ -457,6 +457,13 @@ img.header__image-bg {
   margin-top: 4rem;
   width: 100%;
 }
+
+.client__flex {
+  padding: 1.5rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
