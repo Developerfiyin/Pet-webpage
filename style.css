@@ -526,7 +526,15 @@ img.header__image-bg {
 
 .footer__logo a {
   font-size: 1.75rem;
-  line-height: 5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.footer__col h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
 }
 
 @media (width > 540px) {
