@@ -547,6 +547,23 @@ img.header__image-bg {
   color: var(--text-dark);
 }
 
+.footer__links a:hover {
+  color: var(--primary-color);
+}
+
+.footer__col p {
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.footer__col form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--primary-color);
+  border: 5rem;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
