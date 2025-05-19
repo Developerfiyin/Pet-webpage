@@ -507,6 +507,11 @@ img.header__image-bg {
   border-radius: 5rem;
 }
 
+.instagram__container .section__header {
+  padding-bottom: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--text-light);
+}
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
