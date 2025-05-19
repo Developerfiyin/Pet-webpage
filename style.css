@@ -480,6 +480,22 @@ img.header__image-bg {
   max-width: 50px;
   border-radius: 100%;
 }
+
+.client__details h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.client__details h5 {
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.client__card p {
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
