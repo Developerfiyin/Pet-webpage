@@ -519,6 +519,16 @@ img.header__image-bg {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.footer__container {
+  display: grid;
+  gap: 4rem 2rem;
+}
+
+.footer__logo a {
+  font-size: 1.75rem;
+  line-height: 5rem;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
