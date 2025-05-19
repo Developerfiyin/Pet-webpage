@@ -458,12 +458,28 @@ img.header__image-bg {
   width: 100%;
 }
 
-.client__flex {
+.client__card {
   padding: 1.5rem;
   background-color: var(--white);
   border-radius: 1rem;
+  transition: 0.3s;
 }
 
+.swiper-slide {
+  min-width: 375px;
+}
+
+.client__details {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.client__details img {
+  max-width: 50px;
+  border-radius: 100%;
+}
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
