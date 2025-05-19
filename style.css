@@ -496,6 +496,17 @@ img.header__image-bg {
   color: var(--text-dark);
 }
 
+.instagram__container p {
+  max-width: fit-content;
+  margin-bottom: 1rem;
+  padding: 6px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-dark);
+  background-color: #e6e3fa;
+  border-radius: 5rem;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
