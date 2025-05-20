@@ -574,6 +574,17 @@ img.header__image-bg {
   background-color: transparent;
 }
 
+.footer__col form button {
+  padding: 0.25rem 1.5rem;
+  outline: none;
+  border: none;
+  color: var(--text-dark);
+  font-size: 2rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  background-color: var(--primary-color);
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
