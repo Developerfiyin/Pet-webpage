@@ -585,6 +585,13 @@ img.header__image-bg {
   background-color: var(--primary-color);
 }
 
+.footer__socials {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
