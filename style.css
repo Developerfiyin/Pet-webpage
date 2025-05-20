@@ -601,6 +601,13 @@ img.header__image-bg {
   border-radius: 100%;
 }
 
+.footer__bar {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+}
+
 @media (width > 540px) {
   .header__content h1 {
     font-size: 4.5rem;
