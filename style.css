@@ -628,6 +628,10 @@ img.header__image-bg {
   .instagram__grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (width > 768px) {
@@ -713,5 +717,9 @@ img.header__image-bg {
 
   .product__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
