@@ -27,7 +27,6 @@ ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
   delay: 500,
 });
-
 ScrollReveal().reveal(".header__content h2", {
   ...scrollRevealOption,
   delay: 1000,
