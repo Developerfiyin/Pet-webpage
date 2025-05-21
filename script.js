@@ -23,7 +23,6 @@ const scrollRevealOption = {
 ScrollReveal().reveal(".header__content h4", {
   ...scrollRevealOption,
 });
-
 ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
   delay: 500,
@@ -49,7 +48,7 @@ ScrollReveal().reveal(".intro__card", {
 });
 
 ScrollReveal().reveal(
-  ".about__row:nth-child(3) .about__image img, .about__row:nth_child(5) .about__image img",
+  ".about__row:nth-child(3) .about__image img, .about__row:nth-child(5) .about__image img",
   {
     ...scrollRevealOption,
     origin: "left",
